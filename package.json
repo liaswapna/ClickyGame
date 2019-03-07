@@ -13,7 +13,7 @@
     "react-materialize": "^2.6.0",
     "react-scripts": "^2.1.8"
   },
-  "homepage": "https://liaswapna.github.io/clickygame"
+  "homepage": "https://liaswapna.github.io/clickygame",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
