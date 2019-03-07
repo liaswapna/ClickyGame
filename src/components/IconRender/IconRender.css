@@ -3,3 +3,14 @@
     -webkit-animation: fa-spin 6s infinite linear;
     animation: fa-spin 25s infinite linear;
   }
+
+  .shake {
+    animation: shake 0.15s; 
+    animation-iteration-count: 2; 
+}
+
+@keyframes shake {
+    0% { transform: translate(0px, 0px); }
+    50% { transform: translate(4px, 0px); }
+    100% { transform: translate(-4px, 0px); }
+}
