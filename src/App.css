@@ -1,6 +1,11 @@
 .icon-class{
   margin-top: 50px;
 }
+.card-instr{
+  color: red !important;
+  background-color: rgba(0,0,0,0);
+  text-align: center;
+}
 .App {
   text-align: center;
 }

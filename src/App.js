@@ -51,6 +51,13 @@ class App extends Component {
       <div>
         <div className="container-fluid nav-class">
         <Navbars correct={this.state.correct} gameWon={this.state.gameWon} score={this.state.score} highScore={this.state.highScore}/>
+        <Row>
+          <Col s={12} m={12}>
+          <Card className="card-instr" textClassName='red-text' transparent>
+          <p >Score up by clicking on the image but only once</p>
+          </Card>
+          </Col>
+        </Row>
         </div>
         <div className="container center icon-class">
         <Row>
