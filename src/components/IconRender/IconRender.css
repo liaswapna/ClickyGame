@@ -1,0 +1,5 @@
+.myFont{
+    font-size: 100px;
+    -webkit-animation: fa-spin 6s infinite linear;
+    animation: fa-spin 25s infinite linear;
+  }

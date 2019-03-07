@@ -6,6 +6,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: salmon;
+  background-image: url('./images//bg-tealcloud.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
 }
 
 code {
