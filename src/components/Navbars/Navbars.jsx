@@ -43,7 +43,8 @@ class Navbars extends Component {
   render() {
     return (
       <Navbar className="nav-comp" brand="Clicky Game" right>
-        <NavItem className="nav-list"> Score:|Highest Score:</NavItem>
+      {this.renderMessage(this.props.correct,this.props.gameWon)}
+        <NavItem className="nav-list"> Score{this.props.score}: | High Score:{this.props.highScore}</NavItem>
       </Navbar>
     );
   }
