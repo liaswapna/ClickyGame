@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :arrow_forward: Clicky Game
 
-## Available Scripts
+### Overview
+---
+The web app has 12 images which is clicked by user to play the game. In order to achieve the highest possible score, they must click each image only once. If an image is clicked twice, the game resets.
 
-In the project directory, you can run:
+### Getting Started
+---
+* Clone down repo ``` git clone git@github.com:liaswapna/clickygame.git```.
+* Navigate to the repo ```cd clickygame```.
+* Run command ```npm install``` in Terminal or GitBash
+* Run command ```npm start``` to start ther server.
 
-### `npm start`
+### Technologies Used
+---
+* React
+* Materialize CSS
+* FontAwesome
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Dependencies
+---
+```js
+{
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^3.9.2",
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-materialize": "^2.6.0",
+    "react-scripts": "^2.1.8"
+}
+```
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Demos
+---
+* Clicky Game
+    * [Play Game](https://liaswapna.github.io/clickygame/)
 
-### `npm test`
+### Screenshots
+---
+* #### Github Pages deployed App View
+    * clicky game app
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+      ![App](./readmeImage/clickygame.png)
 
-### `npm run build`
+    
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
